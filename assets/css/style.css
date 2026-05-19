@@ -42644,9 +42644,9 @@ header.header-three .tmp-mega-menu.service-mega-menu-style {
   object-fit: cover;
 }
 
-header .menu-item-open > a {
+/* header .menu-item-open > a {
   color: var(--color-primary) !important;
-}
+} */
 header .menu-item-open > a::after {
   content: "\f077" !important;
   color: var(--color-primary) !important;
