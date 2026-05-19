@@ -42649,7 +42649,7 @@ header.header-three .tmp-mega-menu.service-mega-menu-style {
 } */
 header .menu-item-open > a::after {
   content: "\f077" !important;
-  color: var(--color-primary) !important;
+  /* color: var(--color-primary) !important; */
 }
 
 .menu-item-open::after {
