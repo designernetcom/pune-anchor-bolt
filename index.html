@@ -93,13 +93,14 @@
                                                         <li><a href="">I-Type Bolt</a></li>
                                                     </ul>
                                                 </li>
-                                                <li><a href="">Sag Rod</a></li>
-                                                <li><a href="">Bracing Rod</a></li>
+                                                
                                                 <li class="has-third-lev"><a href="">Hardware <i class="fa-solid fa-chevron-right"></i></a>
                                                     <ul class="submenu">
                                                         <li><a href="">Nut Bolts</a></li>
                                                     </ul>
                                                 </li>
+                                                <li><a href="">Sag Rod</a></li>
+                                                <li><a href="">Bracing Rod</a></li>
                                             </ul>
                                         </li>
                                         
@@ -865,7 +866,7 @@
         </span>
     </div>
 
-    <ul class="submenu mobile-m">
+    <ul class="submenu mobile-mob">
 
         <!-- Foundation Bolt -->
         <li class="has-droupdown third-lvl">
@@ -910,19 +911,7 @@
 
         </li>
 
-        <!-- Sag Rod -->
-        <li>
-            <a class="mobile-menu-link" href="">
-                Sag Rod
-            </a>
-        </li>
 
-        <!-- Bracing Rod -->
-        <li>
-            <a class="mobile-menu-link" href="">
-                Bracing Rod
-            </a>
-        </li>
 
         <!-- Hardware -->
         <li class="has-droupdown third-lvl">
@@ -947,6 +936,20 @@
 
             </ul>
 
+        </li>
+
+                <!-- Sag Rod -->
+        <li>
+            <a class="" href="">
+                Sag Rod
+            </a>
+        </li>
+
+        <!-- Bracing Rod -->
+        <li>
+            <a class="" href="">
+                Bracing Rod
+            </a>
         </li>
 
     </ul>
@@ -986,7 +989,16 @@
 
     <style>
 
-        .mobile-m {
+        .mobile-mob li a {
+    padding: 10px 0px !important;
+    font-size: 15px;
+    color: #222;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+        .mobile-mob {
     position: relative !important;
     top: 100%;
     left: 0;
@@ -1010,14 +1022,14 @@
 }
 
 .mainmenu,
-.mobile-m,
+.mobile-mob,
 .submenu-third-lvl {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-.mobile-m,
+.mobile-mob,
 .submenu-third-lvl {
     display: none;
     padding-left: 15px;
@@ -1047,10 +1059,10 @@
 }
 
 
-.mobile-m li,
+.mobile-mob li,
 .submenu-third-lvl li {
     width: 100%;
-    display: block;
+    /* display: block; */
 }
 
 .mainmenu > li {
