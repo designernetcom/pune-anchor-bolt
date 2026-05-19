@@ -42727,7 +42727,7 @@ li.has-dropdown .submenu li a.active {
   gap: 12px;
   border-radius: 0 !important;
   background: rgba(0, 0, 0, 0.04);
-  color: var(--color-primary);
+  /* color: var(--color-primary); */
 }
 
 .tmp-mega-menu.service-mega-menu-style li a.active {
