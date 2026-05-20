@@ -40323,8 +40323,8 @@ edit .quantity-edit button {
     content: "";
     position: absolute;
     inset: 0;
-    background: url(/assets/img/footer-bg.png) center/cover no-repeat;
-    opacity: 0.2; /* Adjust transparency */
+    background: url(../img/footer-bg.png) center/cover no-repeat;
+    opacity: 0.2;
     z-index: 0;
 }
 
