@@ -45925,9 +45925,9 @@ ul.mega-menu-item.parent-nav {
     min-height: 420px;
   }
 }
-.why-choose-ful-width-area .why-choose-us-img-area.in-about {
+/* .why-choose-ful-width-area .why-choose-us-img-area.in-about {
   background: url(/assets/img/why-choose-img.png) no-repeat center center;
-}
+} */
 .why-choose-ful-width-area .why-choose-us-img-area.in-hydro-power {
   background: url(../images/why-choose-us/11.webp) no-repeat center center;
 }
