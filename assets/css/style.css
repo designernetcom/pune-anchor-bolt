@@ -36731,6 +36731,7 @@ edit .quantity-edit button {
 }
 .tmp-get-in-touch-area.area-3 .get-in-touch-wrapper {
   text-align: center;
+  border: 1px solid #ff5e14;
   border-radius: 4px;
   background: var(--color-white);
   height: 100%;
@@ -36761,7 +36762,10 @@ edit .quantity-edit button {
 }
 .tmp-get-in-touch-area.area-3 .get-in-touch-wrapper .icons i {
   font-size: 36px;
-  color: var(--color-primary);
+  /* color: var(--color-primary); */
+  background: linear-gradient(176deg, #ff5500, #1b70b3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .tmp-get-in-touch-area.area-3 .get-in-touch-wrapper .title {
   margin-bottom: 15px;
@@ -47869,9 +47873,9 @@ padding: 10px;
     background: #fff;
 }
 
-.header-main {
+/* .header-main {
     padding: 18px 0;
-}
+} */
 
 /* Main Wrapper */
 .header-mid-one-wrapper {
@@ -48032,6 +48036,10 @@ padding: 10px;
     .tmp-btn.btn-primary {
         padding: 13px 24px;
     }
+
+     .up-coming-events-grid {
+    padding-top: 140px !important;
+}
 }
 
 /* =========================
@@ -48063,6 +48071,10 @@ padding: 10px;
 
     .header-main {
     padding: 0px 0;
+}
+
+ .up-coming-events-grid {
+    padding-top: 140px !important;
 }
 }
 
@@ -48114,6 +48126,15 @@ padding: 10px;
     .header-main {
     padding: 0px 0;
 }
+
+ .up-coming-events-grid {
+    padding-top: 135px !important;
+}
+
+.tmp-top-contact-area {
+  padding-bottom: 20px !important;
+    padding-top: 150px !important;
+}
 }
 
 /* =========================
@@ -48151,6 +48172,15 @@ padding: 10px;
     .large-bread-crumb-left-content .title {
     font-size: 28px;
 }
+
+ .up-coming-events-grid {
+    padding-top: 110px !important;
+}
+
+.tmp-top-contact-area {
+  padding-bottom: 20px !important;
+    padding-top: 140px !important;
+}
 }
 
 /* =========================
@@ -48172,7 +48202,14 @@ padding: 10px;
         max-width: 100px;
     }
 
- 
+ .up-coming-events-grid {
+    padding-top: 110px !important;
+}
+
+.tmp-top-contact-area {
+  padding-bottom: 20px !important;
+    padding-top: 140px !important;
+}
 
 }
 
