@@ -33519,8 +33519,9 @@ edit .quantity-edit button {
 
 .service-wrapper7 {
   background: var(--color-white);
-  border-radius: 4px;
-  box-shadow: 0px 6px 34px rgba(215, 216, 222, 0.41);
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  box-shadow: rgb(81 81 81 / 45%) 0px 6px 34px;
   padding: 30px;
   position: relative;
   overflow: hidden;
@@ -46461,7 +46462,7 @@ ul.mega-menu-item.parent-nav {
 padding: 10px;
     border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0px 4px 13px rgba(215, 216, 222, 0.41);
+  box-shadow: 0px 4px 13px rgb(81 81 81 / 82%);
   background: var(--color-white);
   transition: 0.3s;
   height: 100%;
