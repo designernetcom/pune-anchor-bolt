@@ -42063,8 +42063,8 @@ li.has-dropdown .submenu li.has-third-lev > a i {
 li.has-dropdown .submenu li.has-third-lev .submenu {
   position: absolute;
   right: 0;
-  top: 15px !important;
-  left: 100%;
+  top: 20px !important;
+  left: 102%;
   opacity: 0 !important;
   transition: 0.3s !important;
 }
