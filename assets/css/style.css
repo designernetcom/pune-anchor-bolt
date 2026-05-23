@@ -26756,11 +26756,11 @@ edit .quantity-edit button {
   color: orangered;
   font-size: 20px;
   font-weight: 900;
-  border: 1px solid rgba(255, 255, 255, 0.3019607843);
+  border: 1px solid rgba(255, 255, 255, 0.873);
   /* background: rgba(255, 255, 255, 0.1098039216);
   transition: var(--transition);
   backdrop-filter: blur(7px); */
-  top: 58%;
+  top: 56%;
 }
 @media only screen and (max-width: 767px) {
   .mySwiper-slider-classic .swiper-btn {
@@ -26771,7 +26771,9 @@ edit .quantity-edit button {
   }
 }
 .mySwiper-slider-classic .swiper-btn:hover {
-  background: var(--color-primary-2);
+  background: rgba(255, 255, 255, 0.1098039216);
+  transition: var(--transition);
+  backdrop-filter: blur(7px);
   border: 1px solid var(--color-primary-2);
   transform: scale(1.2);
 }
@@ -26779,10 +26781,10 @@ edit .quantity-edit button {
   display: none;
 }
 .mySwiper-slider-classic .swiper-btn.swiper-button-prev {
-  left: 4%;
+  left: 1%;
 }
 .mySwiper-slider-classic .swiper-btn.swiper-button-next {
-  right: 4%;
+  right: 1%;
 }
 
 .banner-bg-inner-swiper {
